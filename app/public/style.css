@@ -4,7 +4,7 @@ body {
     background-size: cover;
 
 }
-.overrides .jumbotron {
+ .overrides.jumbotron {
     background: pink;
     opacity: .91;
 }

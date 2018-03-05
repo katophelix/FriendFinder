@@ -39,7 +39,7 @@ var friendsArray = [
 
     {
         "name": "Sleepy",
-        "photo": "https://movies.disney.com.au/snow-white-and-the-seven-dwarfs/characters",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipsnow20.gif",
         "scores": [
             5,
             1,
