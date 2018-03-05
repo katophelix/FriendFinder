@@ -12,14 +12,14 @@
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container overrides">
         <!-- Jumbotron for Title -->
-        <div class="jumbotron">
+        <div class="jumbotron" background-image="heart.jpg">
             <h1 id="message" class="text-center">Friend Finder</h1>
             <h2 id="instruction" class="text-center">On a scale of 1 to 5 (1 being strongly disagree and 5 being strongly agree) choose the best option that fits
                 you for each question.</h2>
@@ -28,7 +28,7 @@
         <div class="search-container">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <span class="glyphicon glyphicon-heart"></span> Survey Questions</div>
+                    <span class="glyphicon glyphicon-heart"></span> <h3>Survey Questions</h3></div>
                 <div class="panel-body">
                     <form>
                         <div class=“form-group”>
@@ -45,7 +45,7 @@
                                 <br>
                                 <h4>You can chatter all day to anyone.</h4>
                                 <select class="questions-control" id="q1">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -60,7 +60,7 @@
                                 <br>
                                 <h4>Your favorite places have sand and water.</h4>
                                 <select class="questions-control" id="q2">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -75,7 +75,7 @@
                                 <br>
                                 <h4>You prefer to be left alone.</h4>
                                 <select class="questions-control" id="q3">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -90,7 +90,7 @@
                                 <br>
                                 <h4>You know everything there is to know about football.</h4>
                                 <select class="questionsform-control" id="q4">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -105,7 +105,7 @@
                                 <br>
                                 <h4>You know everything there is to know about theatre.</h4>
                                 <select class="questions-control" id="q5">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -120,7 +120,7 @@
                                 <br>
                                 <h4>You know everything there is to know about movies.</h4>
                                 <select class="questions-control" id="q6">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -135,7 +135,7 @@
                                 <br>
                                 <h4>You love to go to the ballet.</h4>
                                 <select class="questions-control" id="q7">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -150,7 +150,7 @@
                                 <br>
                                 <h4>You drive way too fast.</h4>
                                 <select class="questionsform-control" id="q8">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -165,7 +165,7 @@
                                 <br>
                                 <h4>You love to travel.</h4>
                                 <select class="questions-control" id="q9">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -180,7 +180,7 @@
                                 <br>
                                 <h4>You think you know best, always.</h4>
                                 <select class="questions-control" id="q10">
-                                    <option></option>
+                                    <option>"Choose 1 to 5, 1 being least agree with"</option>
                                     <option>1 </option>
                                     <option>2</option>
                                     <option>3</option>
@@ -199,50 +199,50 @@
                                 Submit</button>
 
                             <hr>
-
+                        </div>
 
                     </form>
-
-                    </div>
-                </div>
-            </div>
-
-            <footer class="footer">
-                <div class="container">
-                    <p>
-                        <a href="/api/friends">API Friends List</a> |
-                        <a href="https://github.com/katophelix/FriendFinder">GitHub Repo</a>
-                    </p>
-                </div>
-            </footer>
-
-
-            <!-- Trigger the modal with a button -->
-            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
-
-            <!-- Modal -->
-            <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Best Match</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Some text in the modal.</p>
-                            <h2 id="best-match-name"></h2>
-                            <img id="best-match-img" src="" alt="">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
 
                 </div>
             </div>
         </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends List</a> |
+                    <a href="https://github.com/katophelix/FriendFinder">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+
+        <!-- Trigger the modal with a button -->
+        <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Best Match</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Meet your new BFF.</p>
+                        <h2 id="best-match-name"></h2>
+                        <img id="best-match-img" src="" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     </div>
 
     <script type="text/javascript">

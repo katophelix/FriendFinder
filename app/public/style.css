@@ -1,0 +1,30 @@
+body {
+    background-image: url(heart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.overrides .jumbotron {
+    background: pink;
+    opacity: .91;
+}
+
+.overrides h1  {
+font-size: 95pt;
+}
+
+h4, h2 {
+color: red;
+font-size: 25pt;
+
+}
+
+.search-container{
+    text-align: left;
+    opacity: .91;
+   
+}
+
+.row {
+    margin-left: 20px;
+}

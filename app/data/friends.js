@@ -6,7 +6,7 @@
 var friendsArray = [
     {
         "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://www.disneyclips.com/imagesnewb/images/july2310.gif",
         "scores": [
             5,
             1,
@@ -22,7 +22,7 @@ var friendsArray = [
     },
     {
         "name": "KAT HARRIS",
-        "photo": "https://avatars1.githubusercontent.com/u/32774089?s=400&u=205f644c112893e4a4c7a6f459b1f0e5d4c3545c&v=4",
+        "photo": "https://www.disneyclips.com/imagesnewb5/images/marie-singing.png",
         "scores": [
             1,
             1,
@@ -39,7 +39,7 @@ var friendsArray = [
 
     {
         "name": "Sleepy",
-        "photo": "http://movies.disney.com.au/snow-white-and-the-seven-dwarfs/characters",
+        "photo": "https://movies.disney.com.au/snow-white-and-the-seven-dwarfs/characters",
         "scores": [
             5,
             1,
@@ -55,7 +55,7 @@ var friendsArray = [
     },
     {
         "name": "Grumpy",
-        "photo": "http://flyingmonkeysdenied.com/2016/07/29/how-to-spot-a-mild-sociopath/",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipgrumpy.gif",
         "scores": [
             2,
             2,
@@ -71,7 +71,7 @@ var friendsArray = [
     },
     {
         "name": "Sneezy",
-        "photo": "http://theconspiracyzone.podcastpeople.com/posts/36428",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipsnee.gif",
         "scores": [
             3,
             4,
@@ -87,7 +87,7 @@ var friendsArray = [
     },
     {
         "name": "Doc",
-        "photo": "http://notimemommy.com/2009/10/04/getting-ready-for-the-release-of-snowwhite-and-the-seven-dwarfs/",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/docsy2.gif",
         "scores": [
             2,
             5,
@@ -103,7 +103,7 @@ var friendsArray = [
     },
     {
         "name": "Dopey",
-        "photo": "http://www.screenjunkies.com/movies/genres-movies/animation/seven-dwarfs-names-that-would-rather-be-called-little-people",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/dopey.png",
         "scores": [
             1,
             5,
@@ -118,7 +118,7 @@ var friendsArray = [
         ]
     }, {
         "name": "Bashfull",
-        "photo": "http://www.playbuzz.com/madiel10/can-you-guess-the-disney-movie-by-a-character",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/bashful_beard.gif",
         "scores": [
             1,
             2,
@@ -134,7 +134,7 @@ var friendsArray = [
     },
     {
         "name": "Hungry",
-        "photo": "https://rahzkar.deviantart.com/art/Hungry-Dwarf-255980569",
+        "photo": "https://www.disneyclips.com/imagesnewb/images/july78.gif",
         "scores": [
             3,
             4,
@@ -150,7 +150,7 @@ var friendsArray = [
     },
     {
         "name": "Happy",
-        "photo": "http://keywordsuggest.org/gallery/971709.html",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/y51.gif",
         "scores": [
             1,
             2,
@@ -166,7 +166,7 @@ var friendsArray = [
     },
     {
         "name": "Angry",
-        "photo": "https://thedennisjones.org/2011/07/27/on-angry-dwarf/",
+        "photo": "https://www.disneyclips.com/imagesnewb4/images/evilqueen.gif",
         "scores": [
             2,
             2,
