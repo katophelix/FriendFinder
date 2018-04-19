@@ -6,7 +6,7 @@
 var friendsArray = [
     {
         "name": "Ahmed",
-        "photo": "https://www.disneyclips.com/imagesnewb/images/july2310.gif",
+        "photo": "/Jafar_película.jpg",
         "scores": [
             5,
             1,
@@ -20,26 +20,10 @@ var friendsArray = [
             1
         ]
     },
-    {
-        "name": "KAT HARRIS",
-        "photo": "https://www.disneyclips.com/imagesnewb5/images/marie-singing.png",
-        "scores": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-
+    
     {
         "name": "Sleepy",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipsnow20.gif",
+        "photo": "/sleepy.jpg",
         "scores": [
             5,
             1,
@@ -55,7 +39,7 @@ var friendsArray = [
     },
     {
         "name": "Grumpy",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipgrumpy.gif",
+        "photo": "/grumpy.jpg",
         "scores": [
             2,
             2,
@@ -71,7 +55,7 @@ var friendsArray = [
     },
     {
         "name": "Sneezy",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/clipsnee.gif",
+        "photo": "/sneezy.jpg",
         "scores": [
             3,
             4,
@@ -87,7 +71,7 @@ var friendsArray = [
     },
     {
         "name": "Doc",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/docsy2.gif",
+        "photo": "/doc.jpg",
         "scores": [
             2,
             5,
@@ -103,7 +87,7 @@ var friendsArray = [
     },
     {
         "name": "Dopey",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/dopey.png",
+        "photo": "/dopey.jpg",
         "scores": [
             1,
             5,
@@ -118,7 +102,7 @@ var friendsArray = [
         ]
     }, {
         "name": "Bashfull",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/bashful_beard.gif",
+        "photo": "/bashful.jpg",
         "scores": [
             1,
             2,
@@ -134,7 +118,7 @@ var friendsArray = [
     },
     {
         "name": "Hungry",
-        "photo": "https://www.disneyclips.com/imagesnewb/images/july78.gif",
+        "photo": "/pooh.jpg",
         "scores": [
             3,
             4,
@@ -150,7 +134,7 @@ var friendsArray = [
     },
     {
         "name": "Happy",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/y51.gif",
+        "photo": "happy.jpg",
         "scores": [
             1,
             2,
@@ -166,7 +150,7 @@ var friendsArray = [
     },
     {
         "name": "Angry",
-        "photo": "https://www.disneyclips.com/imagesnewb4/images/evilqueen.gif",
+        "photo": "witch.jpg",
         "scores": [
             2,
             2,
